@@ -15,7 +15,7 @@ class Dog extends Pets {
     }
     bark() {
         var dogSay = `${this.name} says WUF-WUF`;
-        return dogSay
+        return dogSay;
     }
 }
 

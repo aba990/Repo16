@@ -12,7 +12,7 @@ class Microsoft {
         this._name = newName;
     }
     occupation() {
-        return `${this.name} is a philanthropist!`
+        return `${this.name} is a philanthropist!`;
     }
 }
 class Facebook extends Microsoft {

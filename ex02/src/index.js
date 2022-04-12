@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 class Book {
     constructor(title) {
@@ -11,7 +11,7 @@ class Book {
         this._title = newTitle;
     }
 }
-const littlePrince = new Book('The Little Prince'); // Change this line
+const littlePrince = new Book("The Little Prince"); // Change this line
 console.log(littlePrince.title); // The Little Prince
 littlePrince.title = "Le Petit Prince" // Change this line
 console.log(littlePrince.title); // Le Petit Prince
